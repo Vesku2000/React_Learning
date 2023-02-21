@@ -67,7 +67,7 @@ export default function App() {
       </Container>
     </Navbar>
     <br />
-    <Navbar bg="primary" variant="dark">
+    {/*     <Navbar bg="primary" variant="dark">
       <Container>
         <Navbar.Brand href="#home">Navbar</Navbar.Brand>
         <Nav className="me-auto">
@@ -88,7 +88,7 @@ export default function App() {
           <Nav.Link href="#pricing">Pricing</Nav.Link>
         </Nav>
       </Container>
-    </Navbar>
+    </Navbar> */}
     <hr />
     {[false, 'sm', 'md', 'lg', 'xl', 'xxl'].map((expand) => (
       <Navbar key={expand} bg="light" expand={expand} className="mb-3">
