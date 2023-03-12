@@ -5,6 +5,9 @@ export default function App() {
   const [name, setName] = useState(null);
   const [nameFieldText, setNameFieldText] = useState("");
 
+  const [favoriteName, setFavoriteName] = useState(null);
+  const [fNameField, setFnameFiel] = useState("");
+
   if (name == null) return <div style={{ padding: "15px" }}>
     <h1>Welcome, Guest!</h1>
     <h5>Please set a name!</h5>
