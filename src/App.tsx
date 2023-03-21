@@ -6,7 +6,6 @@ export default function App() {
   const [nameFieldText, setNameFieldText] = useState("");
 
   const [favoriteName, setFavoriteName] = useState(null);
-  const [fNameField, setFnameFiel] = useState("");
 
   if (name == null) return <div style={{ padding: "15px" }}>
     <h1>Welcome, Guest!</h1>
@@ -43,22 +42,7 @@ export default function App() {
         Submit
       </Button>
     </Form>
-    {/* 		<hr />
-		{[
-			'primary',
-			'secondary',
-			'success',
-			'danger',
-			'warning',
-			'info',
-			'light',
-			'dark',
-		].map((variant) => (
-			<Alert key={variant} variant={variant}>
-				This is a {variant} alert—check it out!
-			</Alert>
-		))}
-		<hr /> */}
+
     <Navbar bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="#home">Navbar</Navbar.Brand>
@@ -70,28 +54,7 @@ export default function App() {
       </Container>
     </Navbar>
     <br />
-    {/*     <Navbar bg="primary" variant="dark">
-      <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-        </Nav>
-      </Container>
-    </Navbar>
 
-    <br />
-    <Navbar bg="light" variant="light">
-      <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-        </Nav>
-      </Container>
-    </Navbar> */}
     <hr />
     {[false, 'sm', 'md', 'lg', 'xl', 'xxl'].map((expand) => (
       <Navbar key={expand} bg="light" expand={expand} className="mb-3">
