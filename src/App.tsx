@@ -35,12 +35,12 @@ export default function App() {
 
 
     <br />
-  <h1>Button examples</h1>
+    <h1>Button examples</h1>
     <hr />
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" className="btn btn-secondary">Secondary</button>
+    <button type="button" className="btn btn-primary">Primary</button>
+    <button type="button" className="btn btn-success">Success</button>
+    <button type="button" className="btn btn-danger">Danger</button>
 
     <hr />
     <h1>Color variants</h1>
