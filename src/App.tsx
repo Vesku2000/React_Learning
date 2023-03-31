@@ -35,8 +35,11 @@ export default function App() {
       <Container>
         <Navbar.Brand href="#home">Navbar</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
+          <Nav.Link href="#home">Etusivu</Nav.Link>
+          <Nav.Link href="#features">Testi</Nav.Link>
+          <Nav.Link href="#pricing">Testi2</Nav.Link>
+          <Nav.Link href="#home">Testi3</Nav.Link>
+          <Nav.Link href="#features">Testi4</Nav.Link>
           <Nav.Link href="#pricing">Pricing</Nav.Link>
         </Nav>
       </Container>
