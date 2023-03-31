@@ -72,11 +72,11 @@ export default function App() {
                 >
                   <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
                   <NavDropdown.Item href="#action4">
-                    Another action
+                    TESTI
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="#action5">
-                    Something else here
+                    TESTI
                   </NavDropdown.Item>
                 </NavDropdown>
               </Nav>
