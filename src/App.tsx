@@ -40,7 +40,7 @@ export default function App() {
           <Nav.Link href="#pricing">Testi2</Nav.Link>
           <Nav.Link href="#home">Testi3</Nav.Link>
           <Nav.Link href="#features">Testi4</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav.Link href="#pricing">Testi5</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
