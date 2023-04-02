@@ -75,9 +75,7 @@ export default function App() {
                     TESTI
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action5">
-                    TESTI
-                  </NavDropdown.Item>
+                  
                 </NavDropdown>
               </Nav>
               <Form className="d-flex">
