@@ -4,6 +4,9 @@ import { useState, useEffect, useRef } from 'react'
 export default function App() {
 
 
+  const name = "Valtteri";
+
+
   return <div style={{ padding: "15px" }}>
     <h1>Welcome, {name}!</h1>
     <p>Thanks for using <b>bddy</b>'s react + bootstrap template!</p>
